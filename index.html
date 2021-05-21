@@ -1,9 +1,12 @@
 <!doctype HTML>
 <html>
+	<!--Like looking at website code, do we? 
+	So do I! If you wanna know how something works, I'll have a comment explaining it.
+	Website Github repo: github.com/kdreally/willso.me-->
 	<head>
-		 <title>Consistency, truth, courage.</title>
-     <!--I love looking at HTML too!
-     t. Varad-->
+		 <title>Consistency, truth, courage.</title> 
+		 <!--That is what shows up as the title of your tab.-->
+		 <!--I want my website to look nice. Let me go ahead and put in a style tag that makes it look different that the default.-->
 		 <style>
 		body {
 			background-color: rgb(10, 10, 10);
@@ -25,8 +28,15 @@
 			color: rgb(255, 255, 0);
 		}
 	</style>
+	
 </head>
+<!--The body is the content of the website.
+Think like a letter, where the meat of the letter is the "body"-->
 <body>
+	<!--Instead of having to type class="impress" on both my h1 and h4 tags, I can save precious bits by wrapping them in a div tag with that class.
+	Since that's the class that denotes that these headings are centered, I can center both of them his way.
+	This becomes very important when you have classes with long names and many adjacent elements use that class, or several classes. 
+	It's not a huge deal, but it does matter a bit.-->
 	<div class="impress">
 	<h1>
 		Welcome to the website of the Willchads!
@@ -37,20 +47,24 @@
 		</em>
 	</h4>
 	</div>
+	<!--Always close your divs!
+	The next line will be broken automatically because I closed a text tag, but I want another line break, which I can force with <br>-->
 	<br>
+	<!--Always need a useless div tag with an undefined class.-->
 	<div class="main">
 	<h3>
 		Services and utilities:
 	</h3>
 	<ul>
 		<li><a target="_blank" href="https://willsomeenglish.miraheze.org">The Willsome English Wiki</a></li>
-  		<li><a target="_blank" href="https://willso.me/f/blog.html">Varad's blog</a></li>
+  		<li><a target="_blank" href="https://willso.me/f">Varad's blog</a></li>
   		<li><a target="_blank" href="https://willso.me/sticky.html">Resources</a></li>
 	</ul>
 	</div>
   <div class="impress">
   <img src="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d" alt="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d" width="380" height="380">
-  <!-- Last updated 20-05-21, 2359 IST -->
+  <!-- Last updated 21-05-21, 2059 IST -->
   </div>
 </body>
+<!--Good day!-->
 </html>
