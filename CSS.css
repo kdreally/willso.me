@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+}
+.impress {
+  text-align: center;
+}
+.based {
+    width: 352px;
+    color: rgb(240,240,240);
+    background-color: rgb(55, 55, 55);
+}
+.varadwashere {
+  text-align: left;
+  background-color: rgb(155, 155, 155);
+}
+a:link {
+    color: rgb(2, 255, 2);
+}
+a:visited {
+    color: rgb(255, 200, 0);
+}
+a:hover {
+    color: rgb(150, 50, 1);
+}
+a:active {
+    color: rgb(255, 255, 0);
+}

@@ -1,75 +1,60 @@
 <!doctype HTML>
 <html>
-	<!--Like looking at website code, do we? 
+<!--Like looking at website code, do we? 
 	So do I! If you wanna know how something works, I'll have a comment explaining it.
 	Website Github repo: github.com/kdreally/willso.me-->
-	<head>
-		 <title>Consistency, truth, courage.</title> 
-		 <!--That is what shows up as the title of your tab.-->
-		 <!--I want my website to look nice. Let me go ahead and put in a style tag that makes it look different that the default.-->
-		 <style>
-		body {
-			background-color: rgb(10, 10, 10);
-			color: rgb(255, 255, 255);
-		}
-		.impress {
-		  text-align: center;
-		}
-		a:link {
-			color: rgb(2, 255, 2);
-		}
-		a:visited {
-			color: rgb(255, 200, 0);
-		}
-		a:hover {
-			color: rgb(150, 50, 1);
-		}
-		a:active {
-			color: rgb(255, 255, 0);
-		}
-	</style>
+
+<head>
+	<title>Consistency, truth, courage.</title>
+	<!--That is what shows up as the title of your tab.-->
+	<!--I want my website to look nice. Let me go ahead and put in a style tag that makes it look different than the default.-->
+	<link rel="stylesheet" type="text/css" href="CSS.css">
 	<!--Search engine optimization below.
 	This helps search engines display the content of your website.-->
 	<meta name="description" content="Willso.me is home to everything you need to achieve freedom again.">
-	<meta name="keywords" content="voluntaryism, voluntarism, anarchism, selfwield, selfweeld, english, language, blog, library">	
+	<meta name="keywords"
+		content="voluntaryism, voluntarism, anarchism, selfwield, selfweeld, english, language, blog, library">
 </head>
 <!--The body is the content of the website.
 Think like a letter, where the meat of the letter is the "body"-->
+
 <body>
 	<!--Instead of having to type class="impress" on both my h1 and h4 tags, I can save precious bits by wrapping them in a div tag with that class.
 	Since that's the class that denotes that these headings are centered, I can center both of them his way.
 	This becomes very important when you have classes with long names and many adjacent elements use that class, or several classes. 
 	It's not a huge deal, but it does matter a bit.-->
 	<div class="impress">
-	<h1>
-		Welcome to the website of the Willchads!
-	</h1>
- 	<h4>
-		<em>
-			The conclusions of Selfwield and the Action Axiom are not feared here
-		</em>
-	</h4>
+		<h1>
+			Welcome to the website of the Willchads!
+		</h1>
+		<h4>
+			<em>
+				The conclusions of Selfwield and the Action Axiom are not feared here
+			</em>
+		</h4>
 	</div>
 	<!--Always close your divs!
 	The next line will be broken automatically because I closed a text tag, but I want another line break, which I can force with <br>-->
 	<br>
 	<!--Always need a useless div tag with an undefined class.-->
 	<div class="main">
-	<h3>
-		Services and utilities:
-	</h3>
-	<ul>
-		<li><a target="_blank" href="/h/">The Willsome English Wiki</a></li>
-  		<li><a target="_blank" href="/f/">Varad's blog</a></li>
-  		<li><a target="_blank" href="/sticky">Resources</a></li>
-	</ul>
+		<h3>
+			Services and utilities:
+		</h3>
+		<ul>
+			<li><a target="_blank" href="/h/">The Willsome English Wiki</a></li>
+			<li><a target="_blank" href="/f/">Varad's blog</a></li>
+			<li><a target="_blank" href="/sticky">Resources</a></li>
+		</ul>
 	</div>
-  <div class="impress">
-  <img src="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d" alt="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d" width="380" height="380">
-  <!-- Last updated 21-05-21, 2430 IST -->
-  </div>
+	<div class="impress">
+		<img src="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d"
+			alt="https://chat.privacytools.io/_matrix/media/r0/download/halogen.city/243d719887e4c60c699a3180ce9d133c084a549d"
+			width="380" height="380">
+		<!-- Last updated 21-05-21, 2430 IST -->
+	</div>
 </body>
-	<!--	<h3>
+<!--	<h3>
 		Roadmap:
 	</h3>
     <p> 
@@ -111,4 +96,5 @@ Think like a letter, where the meat of the letter is the "body"-->
 			</li>
 		</ul> 
 	</p>-->
+
 </html>
