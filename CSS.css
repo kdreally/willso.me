@@ -8,11 +8,10 @@ body {
 .based {
     width: 352px;
     color: rgb(240,240,240);
-    background-color: rgb(55, 55, 55);
+    background-color: rgb(0, 0, 0);
 }
 .varadwashere {
   text-align: left;
-  background-color: rgb(155, 155, 155);
 }
 a:link {
     color: rgb(2, 255, 2);
