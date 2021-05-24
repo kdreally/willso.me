@@ -13,6 +13,9 @@ body {
 .varadwashere {
   text-align: left;
 }
+h6 {
+    font-style: italic;
+}
 a:link {
     color: rgb(2, 255, 2);
 }
