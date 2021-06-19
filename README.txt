@@ -4,8 +4,8 @@ If you request your work be published under any kind of license, I will simply n
 If you are okay with your work being published with no restriction on its usage by readers (beyond requests, like are made in the ��is work . . .� page of the WSE Ewbook), then your work will be reviewed and published.
 
 HELP  WANTED:-
-*nothing rn
++More articles in WSE
+
 
 HELP  NEEDED:-
-*The Wordbooks
-+More Articles in WSE
+*The Wordbooks (MSE-WSE and WSE-MSE)
